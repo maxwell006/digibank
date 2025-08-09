@@ -4949,38 +4949,6 @@
             "time": "2024-04-27T21:32:50+00:00"
         },
         {
-            "name": "remotelywork/installer",
-            "version": "1.0",
-            "dist": {
-                "type": "path",
-                "url": "./modules/installer",
-                "reference": "f64f5b9d855531964c72f9894d3b74fb0692ad5d"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Remotelywork\\Installer\\InstallerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Remotelywork\\Installer\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "tDevs"
-                }
-            ],
-            "description": "Official Script Installer Of tDevs",
-            "transport-options": {
-                "symlink": false,
-                "relative": true
-            }
-        },
-        {
             "name": "rickselby/laravel-gate-cache",
             "version": "3.8.0",
             "source": {
