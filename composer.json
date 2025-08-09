@@ -6,6 +6,9 @@
         "framework",
         "laravel"
     ],
+    "replace": {
+        "remotelywork/installer": "*"
+    },
     "license": "MIT",
     "require": {
         "php": "^8.1",
